@@ -17,7 +17,7 @@ public class LanguageRecordDelegate implements RecordDelegate {
 	static {
 		try {
 			languageCodes = IOUtils.readLines(LanguageRecordDelegate.class.getResourceAsStream("/languagecodes.txt"));
-		} catch (IOException e) {
+		} catch (Exception e) {
 			throw new RuntimeException("Failed to load language codes.", e);
 		}
 	}
