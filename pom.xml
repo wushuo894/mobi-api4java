@@ -8,7 +8,7 @@
 	<packaging>jar</packaging>
 
 	<name>mobi-api4java</name>
-	<url>https://github.com/rrauschenbach/mobi-api4java</url>
+	<url>https://github.com/wushuo894/mobi-api4java</url>
 
 	<description>Mobipocket api for java</description>
 
@@ -79,7 +79,7 @@
 						<include>**/*</include>
 					</includes>
 					<repositoryName>mobi-api4java</repositoryName>      <!-- github repo name -->
-					<repositoryOwner>rrauschenbach</repositoryOwner>    <!-- github username -->
+					<repositoryOwner>wushuo894</repositoryOwner>    <!-- github username -->
 				</configuration>
 				<executions>
 					<execution>
