@@ -19,7 +19,7 @@ Add the following to your pom to make mobi-api4java available in your project. P
 ```xml
 	<repository>
 		<id>mobi-api4java-mvn-repo</id>
-		<url>https://raw.github.com/rrauschenbach/mobi-api4java/mvn-repo/</url>
+		<url>https://raw.github.com/wushuo894/mobi-api4java/mvn-repo/</url>
 		<snapshots>
 			<enabled>true</enabled>
 			<updatePolicy>always</updatePolicy>
@@ -29,7 +29,7 @@ Add the following to your pom to make mobi-api4java available in your project. P
 	<dependency>
 		<groupId>org.rr</groupId>
 		<artifactId>mobi-api4java</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.2-SNAPSHOT</version>
 	</dependency>
 ```
 
